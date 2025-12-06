@@ -1,5 +1,5 @@
 import streamlit as st
-from predictor.py import load_and_prepare_data, train_model, dynamic_rule_with_explanation, generate_strategy_recommendations
+from predictor import load_and_prepare_data, train_model, dynamic_rule_with_explanation, generate_strategy_recommendations
 
 # Load data
 data_files = ['NFLPlaybyPlay2015.csv', '2017-2025_scores.csv']
